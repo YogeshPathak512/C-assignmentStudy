@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F5B961F-16B0-44C4-AD9C-A33E8E6CE9E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MYFirstCsharpProject</RootNamespace>
+    <AssemblyName>MYFirstCsharpProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MYFirstCsharpProject.DynamicsDemos</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="airthemetaicdemo.cs" />
+    <Compile Include="annoympoustypedemo.cs" />
+    <Compile Include="areaofcircle.cs" />
+    <Compile Include="armstrong.cs" />
+    <Compile Include="Arraydemo.cs" />
+    <Compile Include="arraylength.cs" />
+    <Compile Include="ArrayListDemo.cs" />
+    <Compile Include="Assign.cs" />
+    <Compile Include="Assign2.cs" />
+    <Compile Include="assignmentoperator.cs" />
+    <Compile Include="Bitwisedemo.cs" />
+    <Compile Include="BoxingDemo.cs" />
+    <Compile Include="Calstackmechanism.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CarConstrcutordemo.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="ChildSquare.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="constrcutordemo.cs" />
+    <Compile Include="CustomException.cs" />
+    <Compile Include="Datatypedemo.cs" />
+    <Compile Include="dowhiledemo.cs" />
+    <Compile Include="Dynamicdemo.cs" />
+    <Compile Include="DynamicsDemos.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Employeelist.cs" />
+    <Compile Include="enumDemo.cs" />
+    <Compile Include="Exceptiondemo.cs" />
+    <Compile Include="Exceptionpropgation.cs" />
+    <Compile Include="Exceptionwithouttry.cs" />
+    <Compile Include="ExtensionMethodDemo.cs" />
+    <Compile Include="fordemo.cs" />
+    <Compile Include="HCFdemo.cs" />
+    <Compile Include="IDisplay.cs" />
+    <Compile Include="ifdemo.cs" />
+    <Compile Include="ifedemos.cs" />
+    <Compile Include="ifelseiddemo.cs" />
+    <Compile Include="InheritanceDemo.cs" />
+    <Compile Include="InterfaceImplementation.cs" />
+    <Compile Include="Iphone.cs" />
+    <Compile Include="IShow.cs" />
+    <Compile Include="jaggedarray.cs" />
+    <Compile Include="Linqtoobject.cs" />
+    <Compile Include="ListDemo.cs" />
+    <Compile Include="Logicaloperatordemo.cs" />
+    <Compile Include="MainAbstract.cs" />
+    <Compile Include="MainDemo.cs" />
+    <Compile Include="multidemarray.cs" />
+    <Compile Include="NameParameterdemo.cs" />
+    <Compile Include="nullabletypedemo.cs" />
+    <Compile Include="Null_calesing.cs" />
+    <Compile Include="ObjectInitalizer.cs" />
+    <Compile Include="OperatorDemo.cs" />
+    <Compile Include="optionalparamdemo.cs" />
+    <Compile Include="outparamval.cs" />
+    <Compile Include="overloadingdemo.cs" />
+    <Compile Include="paramarray.cs" />
+    <Compile Include="Parent.cs" />
+    <Compile Include="passbyref.cs" />
+    <Compile Include="PassbyValue2.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Propertdemocs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rectangle.cs" />
+    <Compile Include="refdemocs.cs" />
+    <Compile Include="Samsung.cs" />
+    <Compile Include="SentenceDemo.cs" />
+    <Compile Include="Show.cs" />
+    <Compile Include="SpecialCar.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="staticmethoddemo.cs" />
+    <Compile Include="statics.cs" />
+    <Compile Include="stringarr.cs" />
+    <Compile Include="StructureDemo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="StudentStatic.cs" />
+    <Compile Include="switchdemo.cs" />
+    <Compile Include="ternaryoperatordemo.cs" />
+    <Compile Include="ThrowDemo.cs" />
+    <Compile Include="triangledemo.cs" />
+    <Compile Include="unaryoperator.cs" />
+    <Compile Include="UseCustomExceptiondemo.cs" />
+    <Compile Include="Vardemo.cs" />
+    <Compile Include="whiledemo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
